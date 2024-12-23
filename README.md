@@ -2,8 +2,7 @@
 
 ##Descrição
 
-Este projeto visa criar uma página web. O projeto tem como proposta criar um website simples e objetivo, além de resposivo.A página web foi criada com base no design fornecido no Figma, utilizando HTML, CSS e Javascript.
-O objetivo principal é criar um website simples, direto e totalmente responsivo, oferecendo uma experiência de navegação otimizada para diferentes telas e aparelhos.
+Este projeto tem como objetivo desenvolver uma página web funcional, com foco em simplicidade, objetividade e responsividade. O design foi elaborado com base no modelo fornecido pelo Figma e implementado utilizando HTML, CSS e JavaScript. O principal objetivo é entregar um site direto e totalmente responsivo, garantindo uma navegação fluida e adaptada a diferentes dispositivos e tamanhos de tela.
 
 Tecnologias Utilizadas:
 
