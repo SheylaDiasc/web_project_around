@@ -1,0 +1,81 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.profile__edit-button {
+  cursor: pointer;
+}
+
+/* Perfil */
+.profile__name,
+.profile__bio {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Pop-up */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_opened {
+  display: flex;
+}
+
+.popup__container {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.popup__close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Cartões */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    width: 30%;
+  }
+}

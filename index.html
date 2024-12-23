@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sheyla Dias C. Cunha" />
+    <meta name="description" content="Aroun the U.S" />
+    <meta
+      name="keywords"
+      content="Mídias sociais globais: Compartilhando fotos"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Around the US.</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__box">
+          <img
+            src="./images/Header-Around_The_Us_Logo.png"
+            class="header__logo"
+            alt="Around The US logotype"
+          />
+        </div>
+      </header>
+      <main class="content">
+        <section class="profile">
+          <img
+            src="./images/Content-Avatar_Jacques.png"
+            class="profile__avatar"
+            alt="Jacques Cousteau Picture"
+          />
+          <div class="profile__info">
+            <h1 class="profile__info-name">Jacques Cousteau</h1>
+            <button type="button" class="profile__editButton">
+              <img
+                src="./images/Content-Profile-EditButton.png"
+                class="profile__editButton-image"
+                alt="Editar Profile"
+              />
+            </button>
+            <h2 class="profile__info-about">Explorador</h2>
+          </div>
+          <button class="profile__addButton">
+            <img
+              src="./images/Content-Profile-AddButton.png"
+              class="profile__addButton-image"
+              alt="Adicionar Imagem"
+            />
+          </button>
+        </section>
+        <section class="images">
+          <div class="images__grid">
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Catedral de Brasília.png"
+                class="images__grid-cardImage"
+                alt="images_Catedral de Brasília"
+              />
+              <h2 class="images__grid-cardText">Catedral</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="button de curtir"
+                />
+              </button>
+            </div>
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Congresso Nacional.png"
+                class="images__grid-cardImage"
+                alt="images_Congresso Nacional"
+              />
+              <h2 class="images__grid-cardText">Congresso Nacional</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="Button de curtir"
+                />
+              </button>
+            </div>
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Esplanada dos Ministérios.png"
+                class="images__grid-cardImage"
+                alt="Images_Esplanada dos Ministérios"
+              />
+              <h2 class="images__grid-cardText">Esplanada dos Ministérios</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="Button de curtir"
+                />
+              </button>
+            </div>
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Museu JK.png"
+                class="images__grid-cardImage"
+                alt="Images_Museu JK"
+              />
+              <h2 class="images__grid-cardText">Museu JK</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="Button de curtir"
+                />
+              </button>
+            </div>
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Pontão - Lago Sul.png"
+                class="images__grid-cardImage"
+                alt="Images_Pontão - Lago Sul"
+              />
+              <h2 class="images__grid-cardText">Pontão - Lago Sul</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="Button de curtir"
+                />
+              </button>
+            </div>
+            <div class="images__grid-card">
+              <img
+                src="./images/images-Ponte JK.png"
+                class="images__grid-cardImage"
+                alt="Images_Ponte JK"
+              />
+              <h2 class="images__grid-cardText">Ponte JK</h2>
+              <button class="images__grid-cardLikeButton">
+                <img
+                  src="./images/Content-Card-LikeButton.svg"
+                  class="images__grid-cardLikeButtonIcon"
+                  alt="Button de curtir"
+                />
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">@2024. Sheyla Dias C. Cunha</p>
+      </footer>
+      <section class="popup">
+        <div class="popup__container">
+          <button type="button" class="popup__close-button">
+            <img
+              src="./images/Popup_Close-Icon.png"
+              class="popup__close-icon"
+              alt="Button de fechar"
+            />
+          </button>
+          <h2 class="popup__container-title">Editar Perfil</h2>
+          <form class="popup__form">
+            <fieldset class="popup__form-fieldset">
+              <input
+                class="popup__form-fieldsetInput"
+                type="text"
+                placeholder="Nome"
+                id="name"
+                maxlength="19"
+                required
+              />
+              <input
+                class="popup__form-fieldsetInput"
+                type="text"
+                placeholder="Sobre Mim"
+                id="about"
+                maxlength="20"
+                required
+              />
+            </fieldset>
+            <button type="submit" class="popup__save-button">Salvar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
